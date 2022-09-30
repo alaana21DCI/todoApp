@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  border: 2px solid #eee;
+  box-shadow: 10px 5px 5px #eee;
+}
+
+h1 {
+  color: #eee;
+  padding: 30px;
+  box-shadow: 10px 5px 5px black;
+}
+h2 {
+  padding-block: 15px;
+  background-color: #eee;
+  /* box-shadow: 10px 5px 5px black; */
+}
+.greun {
+  color: green;
+}
+
+.blau {
+  color: blue;
+}
+.orangerot {
+  color: orangered;
+}
+.list-Container {
+  /* background-color: aliceblue; */
+  padding: 20px;
+}
+.ToDoListe {
+  background-color: white;
+}
+.Aufgabe {
+  padding: 20px;
+}
+.btnsContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+}
+.Header ul {
+  background-color: #eee;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+ul li:last-child {
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+
+  padding: 6px 8px;
+}
+a:hover {
+  background-color: black;
+}

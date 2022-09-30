@@ -1,0 +1,31 @@
+.Header {
+  background: #2e245e;
+  box-shadow: 10px 0px 5px rgb(236, 103, 55);
+  > nav {
+    padding: 10px 20px;
+    &:hover {
+      background: black;
+      color: #eee;
+    }
+    > ul {
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      gap: 10px;
+
+      > li {
+        > .link {
+          text-decoration: none;
+          color: rgb(236, 103, 55);
+          font-weight: 600;
+          padding: 6px 8px;
+
+          &:hover {
+            background: black;
+            border: 1px dotted rgb(236, 103, 55);
+          }
+        }
+      }
+    }
+  }
+}

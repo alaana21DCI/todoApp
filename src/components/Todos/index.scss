@@ -1,0 +1,97 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 10px 0px 5px #333;
+  > section {
+    border-bottom: 1px solid grey;
+    &.fillter-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0 20px;
+      border-bottom: 2px solid #333;
+      background: #fff;
+      &:hover {
+        background: black;
+        color: #eee;
+        cursor: pointer;
+      }
+
+      > .btn {
+        &:hover {
+          background: #eee;
+          color: #333;
+          cursor: pointer;
+          border: 1px solid #333;
+        }
+      }
+    }
+    > .btn {
+      padding: 7px 14px;
+      background: black;
+      color: beige;
+      border: none;
+      border-radius: 17px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid #eee;
+      cursor: pointer;
+    }
+
+    &.allTodos-box {
+      background: #2b095e;
+    }
+    &.doneTodos-box {
+      background: #bdfdbd;
+    }
+
+    &.addNewTodo-form {
+      background: beige;
+      color: rgba(41, 37, 37, 0.467);
+      padding: 10px 30px;
+      font-weight: 600;
+      font-family: monospace;
+      margin: 0 auto;
+      &:hover {
+        background: black;
+        color: #eee;
+        cursor: pointer;
+      }
+      > form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > input {
+          border: 1px solid wheat;
+          outline: #2a2a18;
+          padding: 4px;
+          color: #333;
+        }
+        > .btn {
+          padding: 7px 14px;
+          background: black;
+          color: wheat;
+          border: none;
+          border-radius: 17px;
+          font-size: 12px;
+          font-weight: 600;
+          border: 1px solid #eee;
+          cursor: pointer;
+        }
+      }
+    }
+    h2 {
+      padding: 10px 20px;
+      background: rgb(236, 103, 55);
+      font-family: monospace;
+      font-size: 16px;
+      letter-spacing: 2px;
+      color: #333;
+      &:hover {
+        background: black;
+        color: #eee;
+      }
+    }
+  }
+}
